@@ -53,9 +53,10 @@ public class AccountViewProjection {
         repository.save(updatedAccountView);
     }
 
-    @QueryHandler
-    public AccountView getAccount(GetAccountView query) {
-        log.debug("Handling: {}", query);
-        return repository.findById(query.id()).orElseThrow();
-    }
+    // TODO: figure out why when this is commented out the application does not start.
+//    @QueryHandler
+//    public AccountView getAccount(GetAccountView query) {
+//        log.debug("Handling: {}", query);
+//        return repository.findById(query.id()).orElseThrow();
+//    }
 }
