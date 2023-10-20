@@ -1,8 +1,8 @@
 [versions]
 # See https://github.com/AxonFramework/axon-bom/releases for Axon BOM releases. The Axon BOM
 # version does NOT align with the Axon Framework version (e.g. BOM v4.5.12 uses framework v4.5.9)
-axon-bom = "4.5.12"
-spring-boot = "2.7.0"
+axon-bom = "4.8.4"
+spring-boot = "3.1.5"
 
 [libraries]
 apache-commons-lang3 = {module = "org.apache.commons:commons-lang3", version = "3.10" }
