@@ -1,3 +1,9 @@
+# NOTE
+
+The issue [#2427](https://github.com/AxonFramework/AxonFramework/issues/2427) on the Axon Framework repo tracked this issue.
+
+The issue is resolved by updating to later versions of Spring and Axon.
+
 # Axon-Spring Module Error 
 
 This repo is an attempt to replicate an error in starting up an Axon-Spring Boot app which uses Java modules. 
